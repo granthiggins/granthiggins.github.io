@@ -1,0 +1,36 @@
+---
+layout: default
+title: All posts
+description: Posts about teaching, drawing and smartworkplaces
+animal: pig
+---
+
+{% include what-is-this.html %}
+
+<h1 class="u-c-txt">{{ page.title }}</h1>
+<div class="posts">
+  <ul>
+  {% for post in site.posts %}
+
+    <li><span class="u-f-big"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span> #{{ post.category | replace: '-', ' '}}</li>
+
+  {% endfor %}
+</ul>
+</div>
+
+<!-- Pagination links -->
+<!--<div class="older-newer u-c-txt">
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+  {% else %}
+  <span class="next ">Older</span>
+  {% endif %}
+   /
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}" class="previous">Newer</a>
+  {% else %}
+  <span class="previous">Newer</span>
+  {% endif %}-->
+  <!--<span class="page_number ">Post: {{ paginator.page }} of {{ paginator.total_pages }}</span>-->
+
+</div>
