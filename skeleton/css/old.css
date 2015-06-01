@@ -1,0 +1,392 @@
+/* custom rules */
+
+.container {
+  max-width: 1080px;
+}
+
+  #inside .container,
+  .container.testimonial,
+  .container.hero-cta {
+    max-width: 700px;
+  }
+
+
+/* --- */
+
+body  {
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+  font-size: 1.8em;
+  /*border-top: 10px solid #3498db;*/
+  color: #000;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+  @media (min-width: 550px) {
+    h1 {
+      font-size: 6rem;
+      margin-bottom: 4rem;
+    }
+  }
+
+h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: #00fc32;
+}
+
+.yellow-bg h2 {
+  color: #fff;
+}
+
+/*
+@media (min-width: 1000px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}*/
+
+.yellow {
+  color: #000;
+}
+
+img.yellow {
+  border: 5px solid #cafc00;
+}
+
+img.green {
+  border: 5px solid #00fc32;
+}
+
+.testimonial img {
+  border: 5px solid #00fc32;
+}
+
+hr {
+    border: 5px solid #fc3200;
+}
+
+.center-me {
+  margin: 0 auto 15px auto;
+  text-align: center;
+  display: block;
+}
+
+.hilight {
+  background: #f1c40f;
+  padding: 5px;
+}
+
+li {
+  list-style-position: outside;
+  list-style: circle;
+}
+
+.content li {
+  margin-left: 25px;
+}
+
+.u-f-small {
+  font-size: 1.8rem;
+}
+
+.u-f-big {
+  font-size: 2.4rem;
+}
+
+
+@media (min-width: 700px) {
+  .content {
+    font-size: 2.4rem;
+  }
+}
+
+/* links */
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border-bottom: 1px solid #cafc00;
+  color: #fff;
+}
+
+a:hover {
+  background: #cafc00;
+  border: none;
+  color: #000;
+}
+
+a.no-border {
+  border: 0;
+  background: none;
+}
+
+.content a:link,
+.content a:visited,
+.content a:active,
+#main a:link,
+#main a:visited,
+#main a:active {
+  text-decoration: none;
+  border-bottom: 1px solid #cafc00;
+  color: #000;
+}
+
+.content a:hover {
+  background: #cafc00;
+  border: none;
+  color: #000;
+}
+
+.posts a:visited {
+  color: #7f8c8d
+}
+
+.button {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+
+/* primary button */
+
+input.submitButton {
+  padding-bottom: 2px;
+}
+
+a.button.button-primary,
+input.submitButton {
+  background-color: #fff;
+  border: #cafc00 2px solid;
+  color: #000;
+}
+
+a.button:hover.button-primary,
+input.submitButton:hover {
+  background-color: #cafc00;
+  border: #cafc00 2px solid;
+  color: #000;
+}
+
+/* on yellow button */
+a.button.button-primary {
+  background-color: #fff;
+  border: #cafc00 2px solid;
+  color: #000;
+}
+
+.yellow-bg a.button:hover.button-primary {
+  background-color: #cafc00;
+  border: #fff 2px solid;
+  color: #000;
+}
+
+
+.button-phablet {
+  display: none;
+  padding: 10px 15px;
+}
+
+@media (min-width: 550px) {
+  .button-phablet {
+    display: inline;
+  }
+}
+
+
+img,
+iframe {
+  max-width: 100%;
+}
+
+iframe {margin-bottom: 30px;}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
+}
+
+
+header {
+  clear: both;
+  padding-top:30px;
+}
+
+  @media (min-width: 1000px) {
+    header {
+      padding-top: 15px;
+    }
+  }
+
+  .header-content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1400px) {
+    .header-content {
+      max-width: 1200px;
+    }
+  }
+
+/* avatar */
+
+.button-menu {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.site-logo {
+  width: 150px;
+  margin: 0 auto;
+  display: block;
+  }
+
+  @media (min-width: 1000px) {
+    .site-logo {
+      display: inline;
+    }
+  }
+
+
+/* nav */
+
+nav {
+  /*margin-top: 35px;*/
+  padding: 10px;
+  font-size: 2rem;
+  float: none;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+  nav li {
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+  }
+
+    @media (min-width: 700px) {
+
+        nav li {
+          display: inline;
+        }
+      }
+
+      @media (min-width: 1000px) {
+          nav {
+            float: right;
+          }
+        }
+
+
+/* --- LINKS --- */
+
+.hero {
+  background: url('../../images/green-bg.png') right -100px;
+  color: #fff;
+  clear: both;
+}
+
+.hero-cta {
+  text-align: center;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+  @media (min-width: 1000px) {
+    .hero-cta {
+      margin-top: 60px;
+    }
+  }
+
+.black-bg {
+  background: url('../../images/black-bg.png') center bottom;
+  color: #fff;
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.yellow-bg {
+  background: url('../../images/yellow-bg.png') left -50px no-repeat;
+  color: #000;
+  clear: both;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin-top: 60px;
+}
+
+.entry,
+.content {
+  margin-bottom: 30px;
+}
+
+
+/* footer */
+
+.wrapper-footer {
+  background: #000;
+  padding-top: 30px;
+
+}
+
+.footer-links ul {
+    text-align: center;
+}
+
+  .footer-links li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.footer {
+  text-align: center;
+  padding-top: 5px;
+  color: #7f8c8d;
+}
+
+/* utility */
+.u-c-txt {
+  text-align: center;
+}
+
+@media (max-width: 549px) {
+  .show-on-mobile {
+    display: block;
+  }
+  .show-on-phablet {
+    display: none;
+  }
+
+}
+
+@media (min-width: 550px) {
+  .show-on-mobile {
+    display: none;
+  }
+  .show-on-phablet {
+    display: block;
+  }
+}

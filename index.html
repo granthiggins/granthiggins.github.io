@@ -2,35 +2,37 @@
 layout: default
 ---
 
-{% include what-is-this.html %}
-
-
-<!-- This loops through the paginated posts
-{% for post in paginator.posts %}
-<h1 class="u-c-txt"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-
-<div class="content">
-  {{ post.content }}
+<div class="row hero-wrapper">
+  <div class="container hero-home">
+    <h1>A sustainable approach to change</h1>
+    <div class="twelve columns">
+    <p class="subheading" style="margin-bottom: 60px;"><em>High quality project and change management consulting</em></p>
+    <p class="u-c-txt" style="margin-bottom: 0;"><a href="{{ site.baseurl }}/contact" class="button button-primary">Talk to us</a>
+  </div>
+  </div>
 </div>
 
-
-  {% endfor %}-->
-
-<div class="posts">
-  {% for post in site.posts limit:1 %}
-  <article class="post">
-
-    <h1><a href="{{ post.url }}">{{ post.title | replace: '-', '-'}}</a></h1>
-    {% include post-author.html%}
-    <div class="entry">
-      {{ post.content }}
-    </div>
-
-  </article>
-  {% endfor %}
+<div class="container">
+<div class="row u-c-txt">
+  <div class="one-half column">
+    <img src="{{ site.baseurl }}/images/consulting-icon.png">
+    <h5>Consulting</h5>
+    <p>Get consulting services taliored to your organisation's specific needs.</p>
+    <p><a href="{{ site.baseurl }}/services" class="button button-secondary">Learn more</a></p>
+  </div>
+  <div class="one-half column">
+    <img src="{{ site.baseurl }}/images/leadership-coaching-icon.png">
+    <h5>Leadership Coaching</h5>
+    <p>Equip project leaders and sponsors to lead their teams through change.</p>
+    <p><a href="{{ site.baseurl }}/services" class="button button-secondary">Learn more</a></p>
+  </div>
+</div>
 </div>
 
-{% include about-blair.html %}
-<div class="row older-newer">
-<p><a href="all-posts">Read more posts like this</a></p>
+<div class="row" style="background-color: #efefef; margin-top: 90px;">
+  <div class="container hero-home">
+    <div>insert client logos here</div>
+  </div>
+</div>
+
 </div>

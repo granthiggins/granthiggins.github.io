@@ -5,11 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>{% if page.title %}{{ page.title }}:{% endif %} BLAIR RORANI</title>
+    <title>{% if page.title %}{{ page.title }}:{% endif %} {{ site.name }}</title>
 
     <!-- web fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Dosis:400,600,700' rel='stylesheet' type='text/css'>
+    <script src="//use.typekit.net/eal2rub.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
 
 
     <meta name="author" content="{{ site.name }}" />
@@ -32,26 +32,19 @@
   </head>
 
   <body>
-    {% include google-tag-manager.html %}
-    {% include button-menu.html %}
-    <!--{% include boring-menu.html %}-->
-    <div id="main" class="container">
-      {{ content }}
-    </div>
+    {% include boring-menu.html %}
 
-    <div class="row footer-links">
-      <ul>
-        <li><a href="/all-posts">All posts</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/follow">Follow me</a>
-        <li><a href="mailto:blair@rorani.com">Email</a></li>
-      </ul>
+    <div id="main">
+      {{ content }}
     </div>
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-          <p></p>Words and pictures &copy; Blair Rorani 2013-2015</p>
+        <footer>
+          <ul class="menu-links">
+            {% include menu-links.html %}
+          </ul>
+          <p>&copy; {{ site.name }} 2013-2015</p>
         </footer>
       </div>
     </div>
