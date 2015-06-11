@@ -31,9 +31,9 @@ h1 {
   text-align: center;
 }
 
-  #inside-page h1 {
+  /*#inside-page h1 {
     text-align: left;
-  }
+  }*/
 
   @media (min-width: 550px) {
     h1 {
@@ -59,9 +59,16 @@ h5 {
 
 .page-blurb {
   color: #019CD5;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 90px;
+  text-align: center;
 }
 
+@media (min-width: 550px) {
+  .page-blurb {
+    font-size: 3rem;
+  }
+}
 
 
 /* lists */
@@ -105,11 +112,21 @@ a:hover {
 /* buttons */
 
 .button {
-  font-size: 18px;
-  padding-left: 60px;
-  padding-right: 60px;
+  font-size: 1.6rem;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 60px;
   padding-top: 10px;
+}
+
+@media (min-width: 1000px) {
+  .button {
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 60px;
+    padding-top: 10px;
+  }
 }
 
 .button.button-primary,
@@ -117,8 +134,6 @@ a:hover {
   background-color: #8BC24B;
   border: #8BC24B 1px solid;
 }
-
-/*   background-color: #019CD5; */
 
 .button:hover.button-primary {
   background-color: #fff;
@@ -160,6 +175,19 @@ a:hover {
 @media (min-width: 550px) {
   .button-phablet {
     display: inline;
+  }
+}
+
+
+
+/* icons */
+.round-icons {
+  max-width: 40%;
+}
+
+@media (min-width: 750px) {
+  .round-icons {
+    max-width: 80%;
   }
 }
 
@@ -229,9 +257,9 @@ iframe {margin-bottom: 30px;}
 }
 
 .site-logo {
-  width: 10rem;
+  width: 15rem;
   display: block;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 30px auto;
 }
 
 nav {
@@ -249,15 +277,20 @@ nav {
 }
 
 @media (min-width: 750px) {
+  .site-logo {
+    width: 25rem;
+  }
+}
+
+@media (min-width: 1000px) {
   .site-name {
-    line-height: 4rem;
+    line-height: 6rem;
     display: inline;
     float: left;
   }
 
-  .site-logo {
-    width: 15rem;
-    display: inline;
+  .menu-height a{
+    line-height: 8rem;
   }
 
   nav {
@@ -276,33 +309,86 @@ nav {
   margin-bottom: 60px;
 }
 
-@media (min-width: 750px) {
-  .hero-wrapper {
-    margin-bottom: 120px;
-    background: url("../../images/hero-seed.png") top center no-repeat;
-  }
-}
-
 .hero-home {
-  padding-top: 210px;
-  padding-bottom: 90px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 
 .hero-inside {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
   .hero-inside h1 {
     margin-bottom: 0;
   }
 
+
+
+@media (min-width: 750px) {
+  .hero-wrapper {
+    margin-bottom: 120px;
+    background: url("../../images/hero-seed.png") bottom center no-repeat;
+  }
+  .hero-home {
+    padding-top: 210px;
+    padding-bottom: 90px;
+  }
+  .hero-inside {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+
+
+/* logos */
 .logos {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.logos img {
+  max-width: 10rem;
+}
+
+/* special grid */
+
+#main ul.special-grid li {
+  margin-left: 0 !important;
+}
+
+ul.special-grid {
+  text-align: center;
+}
+
+  .special-grid li {
+    width: 80px;
+    height: 80px;
+    max-height: 80px;
+    padding: 15px;
+    list-style: none;
+    display:inline-block;
+      *display:inline; /*IE7*/
+      *zoom:1; /*IE7*/
+      text-align: left;
+  }
+
+  ul.special-grid li {
+    margin: 5px;
+  }
+
+  .special-grid img {
+    max-height: 150px;
+  }
+
+
 
 /* formatting */
+
+hr {
+  margin-bottom: 90px;
+  border: 1px dashed #afafaf;
+}
 
 .u-f-small {
   font-size: 1.8rem;

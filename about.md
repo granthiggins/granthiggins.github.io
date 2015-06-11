@@ -10,4 +10,19 @@ permalink: /about/
 <p>Our team has a depth of experience in technology and organisational change management programs, varying in size and complexity.</p>
 
 <p>We have successfully led change management programmes across a broad range of industries.</p>
-<p>[Insert icons for each industry: financial services and banking, construction, food manufacturing, beef industry, pharmaceuticals, automotive, communications, utilities, a range of government departments.]</p>
+<ul>
+<li>Financial services and banking</li>
+<li>Construction</li>
+<li>Food manufacturing</li>
+<li>Primary industries</li>
+<li>Pharmaceuticals</li>
+<li>Automotive</li>
+<li>Communications</li>
+<li>Utilities</li>
+<li>Government sector</li>
+</ul>
+<div style="margin-top: 90px" class="u-c-txt">
+<hr>
+<h2>How can we help you?</h2>
+<p><a href="{{ site.baseurl }}/contact" class="button button-primary">Talk to us</a></p>
+</div>
