@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Serivces
+title: Services
 permalink: /services/
 ---
 
 <p class="page-blurb">
 Intégrité was formed by a group of change professionals who have solid and repeatable project experience, with a track record of delivering. We have combined methodology, tools, and leverage 40+ years of project experience.
-
 </p>
+
 <hr>
 <h2 class="u-c-txt" style="margin-bottom: 60px;">What we do for you</h2>
 <div class="u-c-txt">

@@ -257,7 +257,7 @@ iframe {margin-bottom: 30px;}
 }
 
 .site-logo {
-  width: 15rem;
+  max-height: 8rem;
   display: block;
   margin: 0 auto 30px auto;
 }
@@ -278,7 +278,7 @@ nav {
 
 @media (min-width: 750px) {
   .site-logo {
-    width: 25rem;
+    max-height: 8rem;
   }
 }
 
@@ -327,7 +327,7 @@ nav {
 @media (min-width: 750px) {
   .hero-wrapper {
     margin-bottom: 120px;
-    background: url("../../images/hero-seed.png") bottom center no-repeat;
+    background: #005F90 /*url("../../images/hero-seed.png") bottom center no-repeat*/;
   }
   .hero-home {
     padding-top: 210px;
@@ -362,15 +362,15 @@ ul.special-grid {
 }
 
   .special-grid li {
-    width: 80px;
-    height: 80px;
-    max-height: 80px;
+    width: 125px;
+    height: 125px;
+    max-height: 125px;
     padding: 15px;
     list-style: none;
     display:inline-block;
       *display:inline; /*IE7*/
       *zoom:1; /*IE7*/
-      text-align: left;
+      text-align: center;
   }
 
   ul.special-grid li {
