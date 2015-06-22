@@ -14,7 +14,7 @@ Sydney 2000<br>
 </address>
 
 <p>
-0211111111<br>
+Phone 0419957200 or 0418183139<br>
 <a href="mailto:enquiries@integrite.net">enquiries@integrite.net</a>
 </p>
 </div>
