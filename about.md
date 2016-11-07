@@ -24,7 +24,7 @@ permalink: /about/
       <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector<br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="higher education">Higher education sector<br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Higher education<br></li>
       </ul>
     </div>
     </div>
