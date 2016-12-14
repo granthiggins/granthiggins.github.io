@@ -27,7 +27,6 @@ permalink: /about/
       <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Higher<br>education<br></li>
       </ul>
     </div>
-    </div>
   </div>
 </div>
 
