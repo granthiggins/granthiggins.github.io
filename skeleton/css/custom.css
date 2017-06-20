@@ -91,11 +91,11 @@ a {
 }
 a:link, a:visited, a:active {
   /*color: #808081;*/
-  color: #8BC24B;
+  color: #EF5484;
 }
 a:hover {
   border: none;
-  color: #0F6483;
+  color: #BA436E;
 }
 
   a:link.hide-link,
@@ -260,6 +260,7 @@ iframe {margin-bottom: 30px;}
   max-height: 8rem;
   display: block;
   margin: 0 auto 30px auto;
+  max-width: 300px;
 }
 
 nav {
