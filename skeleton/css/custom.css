@@ -43,7 +43,7 @@ h1 {
   }
 
 h2 {
-  color: #019CD5;
+  color: #808081;
 }
 
 h3,
@@ -58,7 +58,7 @@ h5 {
 }
 
 .page-blurb {
-  color: #019CD5;
+  color: #808081;
   font-size: 2rem;
   margin-bottom: 90px;
   text-align: center;
@@ -90,12 +90,12 @@ a {
   text-decoration: none;
 }
 a:link, a:visited, a:active {
-  /*color: #019CD5;*/
+  /*color: #808081;*/
   color: #8BC24B;
 }
 a:hover {
   border: none;
-  color: #017099;
+  color: #0F6483;
 }
 
   a:link.hide-link,
@@ -131,28 +131,28 @@ a:hover {
 
 .button.button-primary,
 .button:focus.button-primary {
-  background-color: #8BC24B;
-  border: #8BC24B 1px solid;
+  background-color: #EF5484;
+  border: #EF5484 1px solid;
 }
 
 .button:hover.button-primary {
   background-color: #fff;
-  border: #8BC24B 1px solid;
-  color: #8BC24B;
+  border: #EF5484 1px solid;
+  color: #EF5484;
 }
 
 .button.button-secondary,
 .button:focus.button-secondary {
   background-color: #fff;
-  border: #8BC24B 1px solid;
-  color: #8BC24B;
+  border: #EF5484 1px solid;
+  color: #EF5484;
 }
 
-/*   background-color: #019CD5; */
+/*   background-color: #808081; */
 
 .button:hover.button-secondary {
-  background-color: #8BC24B;
-  border: #8BC24B 1px solid;
+  background-color: #EF5484;
+  border: #EF5484 1px solid;
   color: #fff;
 }
 
@@ -304,7 +304,7 @@ nav {
 /* hero */
 
 .hero-wrapper {
-  background: #017099;
+  background: #0F6483;
   color: #fff;
   margin-bottom: 60px;
 }
