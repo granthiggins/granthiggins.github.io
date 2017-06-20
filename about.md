@@ -17,13 +17,13 @@ permalink: /about/
       <ul class="special-grid u-c-txt" style="font-size: 1.4rem;">
       <li><img src="{{ site.baseurl }}/images/industry/financial.png" alt="financial services and banking">Financial services and banking</li>
       <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food"><br>Food manufacturing</li>
-      <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries</li>
+      <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food">Food manufacturing<br><br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/automotive.png" alt="automotive">Automotive<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector<br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Higher<br>education<br></li>
       </ul>
     </div>
