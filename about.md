@@ -35,10 +35,10 @@ permalink: /about/
       <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food">Food manufacturing</li>
       <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries</li>
-      <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals</li>
-      <li><img src="{{ site.baseurl }}/images/industry/automotive.png" alt="automotive">Automotive</li>
-      <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications</li>
-      <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities</li>
+      <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals<br><br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/automotive.png" alt="automotive">Automotive<br><br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications<br><br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector</li>
       <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Higher<br>education</li>
       </ul>
