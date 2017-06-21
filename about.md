@@ -5,26 +5,42 @@ permalink: /about/
 ---
 
 
-<p class="page-blurb">Intégrité was founded by a group of project professionals all sharing the same vision of providing project management services offering solutions that stick. We believe in sustainable change, and we work to empower our clients with the skills to use change management in a way that makes a real difference to their teams, projects and organisation.</p>
+<p class="page-blurb">We are founded by a group of project and change management professionals who are passionate about producing great project outcomes for customers and people. We bring together experts in one consultancy and are built on a philosophy that effective project and change management is a common need in all organisations.</p>
 
 <p>Our team has a depth of experience in technology and organisational change management programs, varying in size and complexity.</p>
 
 <p>We have successfully led change management programmes across a broad range of industries.</p>
+
+<p>We provide quality program, project and change management consulting services;</p>
+
+<ul>
+<li>Business Transformation</li>
+<li>Target Operating Models</li>
+<li>Organisational Design</li>
+<li>Process Design and Re-engineering</li>
+<li>Business Analysis</li>
+<li>Communications</li>
+<li>Organisational Development and Training</li>
+<li>System Upgrades and Implementations</li>
+<li>Testing Services</li>
+<li>Project and Change Management Healthchecks</li>
+<li>Business Readiness and Implementation</li>
+</ul>
 
 <div class="row">
   <div class="container logos">
     <div class="row">
       <ul class="special-grid u-c-txt" style="font-size: 1.4rem;">
       <li><img src="{{ site.baseurl }}/images/industry/financial.png" alt="financial services and banking">Financial services and banking</li>
-      <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food">Food manufacturing<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/automotive.png" alt="automotive">Automotive<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector<br><br></li>
-      <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Higher<br>education<br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction</li>
+      <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food">Food manufacturing</li>
+      <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries</li>
+      <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals</li>
+      <li><img src="{{ site.baseurl }}/images/industry/automotive.png" alt="automotive">Automotive</li>
+      <li><img src="{{ site.baseurl }}/images/industry/communications.png" alt="automotive">Communications</li>
+      <li><img src="{{ site.baseurl }}/images/industry/utilities.png" alt="automotive">Utilities</li>
+      <li><img src="{{ site.baseurl }}/images/industry/government.png" alt="automotive">Government sector</li>
+      <li><img src="{{ site.baseurl }}/images/industry/education.png" alt="education">Highereducation</li>
       </ul>
     </div>
   </div>
