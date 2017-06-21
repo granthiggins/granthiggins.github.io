@@ -32,7 +32,7 @@ permalink: /about/
     <div class="row">
       <ul class="special-grid u-c-txt" style="font-size: 1.4rem;">
       <li><img src="{{ site.baseurl }}/images/industry/financial.png" alt="financial services and banking">Financial services and banking</li>
-      <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction<br></li>
+      <li><img src="{{ site.baseurl }}/images/industry/construction.png" alt="construction">Construction<br><br></li>
       <li><img src="{{ site.baseurl }}/images/industry/food.png" alt="food">Food manufacturing</li>
       <li><img src="{{ site.baseurl }}/images/industry/primary.png" alt="automotive">Primary industries</li>
       <li><img src="{{ site.baseurl }}/images/industry/pharma.png" alt="automotive">Pharmaceuticals</li>
