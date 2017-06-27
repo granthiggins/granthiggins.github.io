@@ -11,7 +11,7 @@ sustainable change.
 
 <p class="page-blurb">Our unique experience includes;
 
-<ul>
+<ul class="really-grey">
 <li>Pre and post IT and Business Integration</li>
 <li>Compliance and Regulatory Reform</li>
 <li>Merger and Acquisition</li>
@@ -24,7 +24,7 @@ sustainable change.
 </p>
 
 <hr>
-<h2 class="u-c-txt" style="margin-bottom: 60px;">What we do for you</h2>
+<h2 class="u-c-txt" style="margin-bottom: 60px;">How can we help you?</h2>
 <div class="u-c-txt">
 <img src="{{ site.baseurl }}/images/leadership-coaching-icon.png" class="round-icons">
 <h3>Change Strategy</h3>
@@ -64,6 +64,5 @@ sustainable change.
 
 <div style="margin-top: 90px" class="u-c-txt">
 <hr>
-<h2>How can we help you?</h2>
 <p><a href="{{ site.baseurl }}/contact" class="button button-primary">Talk to us</a></p>
 </div>

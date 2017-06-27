@@ -64,6 +64,10 @@ h5 {
   text-align: center;
 }
 
+.really-grey {
+  color: #808081;
+}
+
 @media (min-width: 550px) {
   .page-blurb {
     font-size: 3rem;

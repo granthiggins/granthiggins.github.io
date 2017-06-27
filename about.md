@@ -48,6 +48,5 @@ permalink: /about/
 
 <div style="margin-top: 30px" class="u-c-txt">
 <hr>
-<h2>How can we help you?</h2>
 <p><a href="{{ site.baseurl }}/contact" class="button button-primary">Talk to us</a></p>
 </div>
