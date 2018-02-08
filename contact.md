@@ -8,14 +8,13 @@ permalink: /contact/
 <h2>Head Office</h2>
 
 <address>
-Level 14 Lumley House<br>
-309 Kent Street<br>
-Sydney 2000<br>
+Level 14/5 Martin Place<br>
+Sydney<br>
+NSW 2000<br>
 </address>
 
 <p>
 Phone 0419957200 or 0418183139<br>
-<a href="mailto:enquiries@integrite.net">enquiries@integrite.net</a>
 </p>
 </div>
 
